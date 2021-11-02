@@ -1,0 +1,55 @@
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  height: 100vh;
+}
+
+.welcome-heading {
+  color: #f0bb03;
+  font-family: 'Bree Serif';
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .welcome-heading {
+    font-size: 96px;
+  }
+}
+
+.welcome-text {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .welcome-text {
+    font-size: 36px;
+  }
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  text-align: center;
+  background-color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 18px;
+  }
+}
